@@ -1,1 +1,1 @@
-# AI_Gobang-AI-
+# AIGobang(AI五子棋)

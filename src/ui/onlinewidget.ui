@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OnlineWidget</class>
+ <widget class="QWidget" name="OnlineWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btn_match">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>60</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Online Match</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_rank">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>60</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Rank</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_history">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>280</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>History</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_logout">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>480</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_change">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>380</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Change Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_exit">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>480</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Exit Game</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_setting">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>370</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_create">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Create Room</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_join">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>160</y>
+     <width>200</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Join Room</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

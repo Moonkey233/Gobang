@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="res/black.png">D:/Desktop/MyGobang/res/black.png</file>
+<file alias="res/white.png">D:/Desktop/MyGobang/res/white.png</file>
+</qresource>
+</RCC>

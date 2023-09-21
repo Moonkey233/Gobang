@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InfoDialog</class>
+ <widget class="QDialog" name="InfoDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_confirm">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>490</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_info">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>511</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Gobang
+本游戏是一款五子棋游戏，支持单机模式和联机对战。</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_bilibili">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>180</y>
+     <width>341</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Open in &lt;a href=&quot;https://space.bilibili.com/215177187&quot;&gt;Bilibili&lt;/a&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_github">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>280</y>
+     <width>341</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Open in &lt;a href=&quot;https://github.com/Moonkey233/Gobang&quot;&gt;Github&lt;/a&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gitee">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>380</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Open in &lt;a href=&quot;https://gitee.com/Moonkey233/Gobang&quot;&gt;Gitee&lt;/a&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="openExternalLinks">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

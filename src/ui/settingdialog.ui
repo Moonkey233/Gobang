@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingDialog</class>
+ <widget class="QDialog" name="SettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_default">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>510</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Default</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_confirm">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>510</y>
+     <width>100</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_address">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Server Address:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_address">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>30</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_port">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Server Port:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_port">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>110</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_easy">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>210</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Easy(4)</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_amateur">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>250</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>amateur(6)</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_normal">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>290</y>
+     <width>115</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Normal(8)</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_custom_depth">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>200</y>
+     <width>151</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Custom Depth</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_custom_time">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>240</y>
+     <width>181</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Custom Time</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_custom">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>270</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Custom:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_custom">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>280</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_forbidden">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>340</y>
+     <width>401</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Using the Rules of Forbidden Moves</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_volume">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>400</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Volume:</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="slider_volume">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>410</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWidget</class>
+ <widget class="QWidget" name="RegisterWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_userName">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>50</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>UserName:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_userName">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>60</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_email">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>150</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Email:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_email">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>150</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_code">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>260</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Verify Code:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_code">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>270</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_password">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>350</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Password:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_confirm_password">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>440</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Confirm Password:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>360</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_confirm_password">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>450</y>
+     <width>531</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_send">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>140</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Send Code</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_return">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>570</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_register">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>570</y>
+     <width>141</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

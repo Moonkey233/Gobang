@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateRoomDialog</class>
+ <widget class="QDialog" name="CreateRoomDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="btn_cancel">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_public">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Public Room</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_black">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Black</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_create">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>250</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_white">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>140</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>White</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_chess">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Your Chess:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_name">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Room Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_name">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>60</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 12pt &quot;Arial&quot;;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
